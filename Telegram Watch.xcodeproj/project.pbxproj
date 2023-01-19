@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC24937A29789E0C003949ED /* Telegram Watch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AC24937929789E0C003949ED /* Telegram Watch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AC24937F29789E0C003949ED /* Telegram_WatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC24937E29789E0C003949ED /* Telegram_WatchApp.swift */; };
+		AC24938129789E0C003949ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC24938029789E0C003949ED /* ContentView.swift */; };
+		AC24938329789E0E003949ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC24938229789E0E003949ED /* Assets.xcassets */; };
+		AC24938629789E0E003949ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC24938529789E0E003949ED /* Preview Assets.xcassets */; };
+		AC24939029789E0E003949ED /* Telegram_Watch_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC24938F29789E0E003949ED /* Telegram_Watch_Watch_AppTests.swift */; };
+		AC24939A29789E0E003949ED /* Telegram_Watch_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC24939929789E0E003949ED /* Telegram_Watch_Watch_AppUITests.swift */; };
+		AC24939C29789E0E003949ED /* Telegram_Watch_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC24939B29789E0E003949ED /* Telegram_Watch_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC24937B29789E0C003949ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC24936D29789E0C003949ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC24937829789E0C003949ED;
+			remoteInfo = "Telegram Watch Watch App";
+		};
+		AC24938C29789E0E003949ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC24936D29789E0C003949ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC24937829789E0C003949ED;
+			remoteInfo = "Telegram Watch Watch App";
+		};
+		AC24939629789E0E003949ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC24936D29789E0C003949ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC24937829789E0C003949ED;
+			remoteInfo = "Telegram Watch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AC2493A229789E0E003949ED /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				AC24937A29789E0C003949ED /* Telegram Watch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AC24937329789E0C003949ED /* Telegram Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Telegram Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC24937929789E0C003949ED /* Telegram Watch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Telegram Watch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC24937E29789E0C003949ED /* Telegram_WatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Telegram_WatchApp.swift; sourceTree = "<group>"; };
+		AC24938029789E0C003949ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AC24938229789E0E003949ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC24938529789E0E003949ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC24938B29789E0E003949ED /* Telegram Watch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Telegram Watch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC24938F29789E0E003949ED /* Telegram_Watch_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Telegram_Watch_Watch_AppTests.swift; sourceTree = "<group>"; };
+		AC24939529789E0E003949ED /* Telegram Watch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Telegram Watch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC24939929789E0E003949ED /* Telegram_Watch_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Telegram_Watch_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		AC24939B29789E0E003949ED /* Telegram_Watch_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Telegram_Watch_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC24937629789E0C003949ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC24938829789E0E003949ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC24939229789E0E003949ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC24936C29789E0C003949ED = {
+			isa = PBXGroup;
+			children = (
+				AC24937D29789E0C003949ED /* Telegram Watch Watch App */,
+				AC24938E29789E0E003949ED /* Telegram Watch Watch AppTests */,
+				AC24939829789E0E003949ED /* Telegram Watch Watch AppUITests */,
+				AC24937429789E0C003949ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC24937429789E0C003949ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC24937329789E0C003949ED /* Telegram Watch.app */,
+				AC24937929789E0C003949ED /* Telegram Watch Watch App.app */,
+				AC24938B29789E0E003949ED /* Telegram Watch Watch AppTests.xctest */,
+				AC24939529789E0E003949ED /* Telegram Watch Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC24937D29789E0C003949ED /* Telegram Watch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				AC24937E29789E0C003949ED /* Telegram_WatchApp.swift */,
+				AC24938029789E0C003949ED /* ContentView.swift */,
+				AC24938229789E0E003949ED /* Assets.xcassets */,
+				AC24938429789E0E003949ED /* Preview Content */,
+			);
+			path = "Telegram Watch Watch App";
+			sourceTree = "<group>";
+		};
+		AC24938429789E0E003949ED /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AC24938529789E0E003949ED /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC24938E29789E0E003949ED /* Telegram Watch Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC24938F29789E0E003949ED /* Telegram_Watch_Watch_AppTests.swift */,
+			);
+			path = "Telegram Watch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		AC24939829789E0E003949ED /* Telegram Watch Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC24939929789E0E003949ED /* Telegram_Watch_Watch_AppUITests.swift */,
+				AC24939B29789E0E003949ED /* Telegram_Watch_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Telegram Watch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC24937229789E0C003949ED /* Telegram Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC2493A329789E0E003949ED /* Build configuration list for PBXNativeTarget "Telegram Watch" */;
+			buildPhases = (
+				AC24937129789E0C003949ED /* Resources */,
+				AC2493A229789E0E003949ED /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC24937C29789E0C003949ED /* PBXTargetDependency */,
+			);
+			name = "Telegram Watch";
+			productName = "Telegram Watch";
+			productReference = AC24937329789E0C003949ED /* Telegram Watch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		AC24937829789E0C003949ED /* Telegram Watch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC24939F29789E0E003949ED /* Build configuration list for PBXNativeTarget "Telegram Watch Watch App" */;
+			buildPhases = (
+				AC24937529789E0C003949ED /* Sources */,
+				AC24937629789E0C003949ED /* Frameworks */,
+				AC24937729789E0C003949ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Telegram Watch Watch App";
+			productName = "Telegram Watch Watch App";
+			productReference = AC24937929789E0C003949ED /* Telegram Watch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC24938A29789E0E003949ED /* Telegram Watch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC2493A629789E0E003949ED /* Build configuration list for PBXNativeTarget "Telegram Watch Watch AppTests" */;
+			buildPhases = (
+				AC24938729789E0E003949ED /* Sources */,
+				AC24938829789E0E003949ED /* Frameworks */,
+				AC24938929789E0E003949ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC24938D29789E0E003949ED /* PBXTargetDependency */,
+			);
+			name = "Telegram Watch Watch AppTests";
+			productName = "Telegram Watch Watch AppTests";
+			productReference = AC24938B29789E0E003949ED /* Telegram Watch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC24939429789E0E003949ED /* Telegram Watch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC2493A929789E0E003949ED /* Build configuration list for PBXNativeTarget "Telegram Watch Watch AppUITests" */;
+			buildPhases = (
+				AC24939129789E0E003949ED /* Sources */,
+				AC24939229789E0E003949ED /* Frameworks */,
+				AC24939329789E0E003949ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC24939729789E0E003949ED /* PBXTargetDependency */,
+			);
+			name = "Telegram Watch Watch AppUITests";
+			productName = "Telegram Watch Watch AppUITests";
+			productReference = AC24939529789E0E003949ED /* Telegram Watch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC24936D29789E0C003949ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					AC24937229789E0C003949ED = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					AC24937829789E0C003949ED = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					AC24938A29789E0E003949ED = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AC24937829789E0C003949ED;
+					};
+					AC24939429789E0E003949ED = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AC24937829789E0C003949ED;
+					};
+				};
+			};
+			buildConfigurationList = AC24937029789E0C003949ED /* Build configuration list for PBXProject "Telegram Watch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC24936C29789E0C003949ED;
+			productRefGroup = AC24937429789E0C003949ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC24937229789E0C003949ED /* Telegram Watch */,
+				AC24937829789E0C003949ED /* Telegram Watch Watch App */,
+				AC24938A29789E0E003949ED /* Telegram Watch Watch AppTests */,
+				AC24939429789E0E003949ED /* Telegram Watch Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC24937129789E0C003949ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC24937729789E0C003949ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC24938629789E0E003949ED /* Preview Assets.xcassets in Resources */,
+				AC24938329789E0E003949ED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC24938929789E0E003949ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC24939329789E0E003949ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC24937529789E0C003949ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC24938129789E0C003949ED /* ContentView.swift in Sources */,
+				AC24937F29789E0C003949ED /* Telegram_WatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC24938729789E0E003949ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC24939029789E0E003949ED /* Telegram_Watch_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC24939129789E0E003949ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC24939A29789E0E003949ED /* Telegram_Watch_Watch_AppUITests.swift in Sources */,
+				AC24939C29789E0E003949ED /* Telegram_Watch_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC24937C29789E0C003949ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC24937829789E0C003949ED /* Telegram Watch Watch App */;
+			targetProxy = AC24937B29789E0C003949ED /* PBXContainerItemProxy */;
+		};
+		AC24938D29789E0E003949ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC24937829789E0C003949ED /* Telegram Watch Watch App */;
+			targetProxy = AC24938C29789E0E003949ED /* PBXContainerItemProxy */;
+		};
+		AC24939729789E0E003949ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC24937829789E0C003949ED /* Telegram Watch Watch App */;
+			targetProxy = AC24939629789E0E003949ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AC24939D29789E0E003949ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC24939E29789E0E003949ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AC2493A029789E0E003949ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Telegram Watch Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Telegram Watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "santavaran.Telegram-Watch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		AC2493A129789E0E003949ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Telegram Watch Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Telegram Watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "santavaran.Telegram-Watch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		AC2493A429789E0E003949ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = "Telegram Watch";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "santavaran.Telegram-Watch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AC2493A529789E0E003949ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = "Telegram Watch";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "santavaran.Telegram-Watch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC2493A729789E0E003949ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "santavaran.Telegram-Watch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Telegram Watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Telegram Watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		AC2493A829789E0E003949ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "santavaran.Telegram-Watch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Telegram Watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Telegram Watch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		AC2493AA29789E0E003949ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "santavaran.Telegram-Watch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Telegram Watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		AC2493AB29789E0E003949ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "santavaran.Telegram-Watch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Telegram Watch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC24937029789E0C003949ED /* Build configuration list for PBXProject "Telegram Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC24939D29789E0E003949ED /* Debug */,
+				AC24939E29789E0E003949ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC24939F29789E0E003949ED /* Build configuration list for PBXNativeTarget "Telegram Watch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC2493A029789E0E003949ED /* Debug */,
+				AC2493A129789E0E003949ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC2493A329789E0E003949ED /* Build configuration list for PBXNativeTarget "Telegram Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC2493A429789E0E003949ED /* Debug */,
+				AC2493A529789E0E003949ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC2493A629789E0E003949ED /* Build configuration list for PBXNativeTarget "Telegram Watch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC2493A729789E0E003949ED /* Debug */,
+				AC2493A829789E0E003949ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC2493A929789E0E003949ED /* Build configuration list for PBXNativeTarget "Telegram Watch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC2493AA29789E0E003949ED /* Debug */,
+				AC2493AB29789E0E003949ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC24936D29789E0C003949ED /* Project object */;
+}
